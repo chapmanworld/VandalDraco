@@ -1,0 +1,22 @@
+VandalDraco upstream baseline
+
+Draco (Google's 3D geometry compression library):
+  Version: 1.5.7
+  Upstream repository: https://github.com/google/draco.git
+  Upstream tag: 1.5.7
+  Upstream commit: 8786740086a9f4d83f44aa83badfbea4dce7a1b5
+
+Reason:
+  Draco is decoded by the asset compiler when importing glTF/GLB models
+  containing Draco-compressed geometry. This baseline matches the version
+  pinned for the VandalSDK toolchain build.
+
+This repository was forked directly from the upstream Draco git repository
+at the tag above; full upstream history is preserved, and the upstream
+remote is retained locally as `draco-upstream` so later releases can be
+pulled with a normal `git fetch draco-upstream <tag>`.
+
+Note: this repository contains only upstream Draco itself. The
+Vandal-authored native wrapper library that loads Draco at runtime for the
+asset compiler is a separate, Vandal-owned project and is not part of this
+repository.
