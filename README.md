@@ -18,7 +18,7 @@ Note: this repository contains only upstream Draco itself. The Vandal-authored n
 
 ## Contributions and issue tracking
 
-This is **not a maintained fork**. Craig Chapman is not accepting contributions here, and this repository is not the place to raise issues, ask questions, or request features.
+This is **not a maintained fork**. ChapmanWorld is not accepting contributions here, and this repository is not the place to raise issues, ask questions, or request features.
 
 * Please do not use this repository as a Draco support forum.
 * Please do not raise issues here for upstream Draco bugs.
